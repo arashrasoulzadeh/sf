@@ -125,6 +125,14 @@
       <path value="$PROJECT_DIR$/vendor/codeception/phpunit-wrapper" />
       <path value="$PROJECT_DIR$/vendor/codeception/stub" />
       <path value="$PROJECT_DIR$/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/vendor/codeception/module-rest" />
+      <path value="$PROJECT_DIR$/vendor/codeception/module-asserts" />
+      <path value="$PROJECT_DIR$/vendor/codeception/lib-innerbrowser" />
+      <path value="$PROJECT_DIR$/vendor/codeception/module-phpbrowser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/flow/jsonpath" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gDgjq61kCL4noTrr9kZBfRO2vM" />
@@ -133,6 +141,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/storage" />
@@ -152,11 +161,19 @@
       <recent name="$PROJECT_DIR$/storage" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.FoodController.php">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="FoodController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/Http/Controllers/FoodController.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.FoodController.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -166,11 +183,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597654715362</updated>
-      <workItem from="1597654716778" duration="8873000" />
+      <workItem from="1597654716778" duration="15840000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2231" y="-39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597687057650">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="2231" y="-39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.727/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597687057650" />
+    <state x="2382" y="-21" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597688882217">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="2382" y="-21" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.727/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597688882217" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1597693766910">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1280.727/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597693766910" />
+    <state x="2202" y="-79" width="670" height="676" key="search.everywhere.popup" timestamp="1597688841424">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="2202" y="-79" width="670" height="676" key="search.everywhere.popup/0.23.1280.727/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597688841424" />
   </component>
 </project>
