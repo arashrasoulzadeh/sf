@@ -34,7 +34,6 @@ services:
       SERVICE_NAME: mysql
     networks:
       - laravel
-
   php:
     build:
       context: .
@@ -46,3 +45,5 @@ services:
       - "9000:9000"
     networks:
       - laravel
+volumes:
+  mongodb_data_container:

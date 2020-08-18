@@ -4,6 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\DB;
 
 /**
  * @property int id
@@ -31,6 +32,23 @@ class Ingredient extends Model
             $ingredient->save();
             return $ingredient->id;
         }
+    }
+
+    public static function hasIngredients($food_id)
+    {
+        $food_required_ingredients = FoodIngredients::where("food_id", $food_id)->count();
+        $food_available_ingredients = DB::table("food_ingredients")
+            ->select(DB::raw("count(ingredient_id) as acnt, food_id"))
+            ->join("ingredients", "food_ingredients.ingredient_id", "=", "ingredients.id")
+            ->whereDate("ingredients.expires_at", ">=", Carbon::now())
+            ->where("ingredients.stock", ">", 0)
+            ->where("food_id", $food_id)
+            ->groupBy("food_ingredients.food_id");
+        if (!$food_available_ingredients->count())
+            return false;
+
+
+        return $food_required_ingredients == $food_available_ingredients->first()->acnt;
     }
 
 }

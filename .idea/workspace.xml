@@ -155,6 +155,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/docker/php" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -183,7 +184,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597654715362</updated>
-      <workItem from="1597654716778" duration="15840000" />
+      <workItem from="1597654716778" duration="33840000" />
     </task>
     <servers />
   </component>
@@ -195,17 +196,55 @@
       <screen x="1280" y="-257" width="1920" height="1057" />
     </state>
     <state x="2231" y="-39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.727/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597687057650" />
+    <state x="2065" y="70" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597706571099">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="2065" y="70" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.727/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597706571099" />
     <state x="2382" y="-21" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597688882217">
       <screen x="1280" y="-257" width="1920" height="1057" />
     </state>
     <state x="2382" y="-21" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.727/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597688882217" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1597693766910">
-      <screen x="1280" y="-257" width="1920" height="1057" />
+    <state x="378" y="148" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597734526861">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
+    <state x="378" y="148" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1280.726@0.23.1280.726" timestamp="1597734526861" />
+    <state width="1009" height="282" key="GridCell.Tab.0.bottom" timestamp="1597730689735">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1009" height="282" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1597730689735" />
+    <state width="1416" height="447" key="GridCell.Tab.0.bottom/0.23.1280.728/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597701432426" />
+    <state width="1416" height="447" key="GridCell.Tab.0.bottom/0.23.1280.729/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597702033682" />
+    <state width="1009" height="282" key="GridCell.Tab.0.center" timestamp="1597730689735">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1009" height="282" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1597730689735" />
+    <state width="1416" height="447" key="GridCell.Tab.0.center/0.23.1280.728/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597701432425" />
+    <state width="1416" height="447" key="GridCell.Tab.0.center/0.23.1280.729/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597702033681" />
+    <state width="1009" height="282" key="GridCell.Tab.0.left" timestamp="1597730689734">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1009" height="282" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1597730689734" />
+    <state width="1416" height="447" key="GridCell.Tab.0.left/0.23.1280.728/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597701432424" />
+    <state width="1416" height="447" key="GridCell.Tab.0.left/0.23.1280.729/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597702033680" />
+    <state width="1009" height="282" key="GridCell.Tab.0.right" timestamp="1597730689735">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1009" height="282" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1597730689735" />
+    <state width="1416" height="447" key="GridCell.Tab.0.right/0.23.1280.728/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597701432425" />
+    <state width="1416" height="447" key="GridCell.Tab.0.right/0.23.1280.729/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597702033682" />
+    <state width="500" height="400" key="SwitcherDM" timestamp="1597734770862">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="500" height="400" key="SwitcherDM/0.23.1280.726@0.23.1280.726" timestamp="1597734770862" />
     <state width="500" height="445" key="SwitcherDM/0.23.1280.727/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597693766910" />
-    <state x="2202" y="-79" width="670" height="676" key="search.everywhere.popup" timestamp="1597688841424">
-      <screen x="1280" y="-257" width="1920" height="1057" />
+    <state x="0" y="23" width="1280" height="560" key="dock-window-1" timestamp="1597699179984">
+      <screen x="0" y="23" width="1280" height="728" />
     </state>
+    <state x="0" y="23" width="1280" height="560" key="dock-window-1/0.23.1280.728/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597699179984" />
+    <state x="615" y="145" width="670" height="465" key="search.everywhere.popup" timestamp="1597734519951">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="615" y="145" width="670" height="465" key="search.everywhere.popup/0.23.1280.726@0.23.1280.726" timestamp="1597734519951" />
     <state x="2202" y="-79" width="670" height="676" key="search.everywhere.popup/0.23.1280.727/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1597688841424" />
   </component>
 </project>

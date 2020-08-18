@@ -29,6 +29,16 @@ Route::group([
 
 Route::group([
 
+    'middleware' => ['api', 'auth'],
+    'prefix' => 'order'
+
+], function ($router) {
+    Route::post('food', 'OrderController@order');
+    Route::get('list', 'OrderController@orders');
+});
+
+Route::group([
+
     'middleware' => 'api',
     'prefix' => 'auth'
 

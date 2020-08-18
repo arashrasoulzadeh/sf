@@ -21,3 +21,26 @@ you should then seed the database with `php artisan db:seed`
 to run tests simply execute 
 
 `php vendor/bin/codecept run api`
+
+
+# routes
+Menu = `http://localhost:8080/api/food/menu`
+
+order (auth*) = `http://localhost:8080/api/order/food`
+
+Orders (auth*) = `http://localhost:8080/api/order/list`
+
+Register = `http://localhost:8080/api/auth/register`
+
+Login = `http://localhost:8080/api/auth/login`
+
+
+`* login first then set authorization header for auth routes` 
+
+insomnia rest client file available [here](insomnia.json)
+
+# notes:
+data was incorrect, so i changed the date of ingredients to match the date of test, also this test needed more time to performance-tune operation and write more tests
+
+
+
